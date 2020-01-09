@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversor"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+    />
+
+    <ImageView
+        android:layout_width="176dp"
+        android:layout_height="141dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/money" />
+
+    <EditText
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_valor"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        android:hint="@string/Valor" />
+    <Spinner
+        android:layout_width="200sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_moneyone"/>
+
+    <ImageView
+        android:id="@+id/img_conver"
+        android:layout_width="207dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/chevron" />
+
+    <Spinner
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/sp_moneytwo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_resultado"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ConversorMoneda</string>
+    <string name="Valor">Valor</string>
+    <string name="pesosigual">Pesos = </string>
+    <string name="pesos"> Pesos</string>
+    <string name="dolares"> Dolares</string>
+    <string name="euros"> Euros</string>
+    <string name="dolaresigual">Dolares = </string>
+    <string name="eurosigual">Euros = </string>
+
+
+    <string-array name="moneyone_list">
+<item>Pesos</item>
+<item>Euros</item>
+<item>Dolares</item>
+</string-array>
+
+<string-array name="moneytwo_list">
+<item>Pesos</item>
+<item>Euros</item>
+<item>Dolares</item>
+</string-array>
+    </resources>
